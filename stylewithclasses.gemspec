@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary = %q{ Style your web page using css classes}
   s.description = %q{Style your web page using css classes}
   s.email = "tingan@clockies.com"
-  s.homepage = "https://github.com/tinganho/stylewithclasses"
+  s.homepage = "http://github.com/tinganho/stylewithclasses"
 
   # Gem Files
   s.files = %w(README.md)
