@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   
   # Release Specific Information
   s.name = "stylewithclass"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
   s.date = "2012-09-15"
 
   # Author Information
@@ -11,8 +11,9 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/tinganho/stylewithclass"
 
   # Project Description
-  s.summary = %q{ Style your web page using css classes}
-  s.description = %q{Style your web page using css classes}
+  s.rubyforge_project = "stylewithclass"
+  s.summary = %q{Style your web page using css classes}
+  s.description = %q{StyleWithClass lets you style your web pages using predefined CSS classes that are commonly used. Such as paddings, margins, position, clear, floats etc.}
   
   # Files to Include
   s.files = %w(README.md)
