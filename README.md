@@ -22,13 +22,13 @@ Installing Stylewithclass:
 Settings
 =========================
 
-Set min, max & step for margin and padding values
+Set min, max & step for margin and padding values.
 
     $min-pm: 1; // default
     $max-pm: 50; // default
     $step-pm: 1; // default
 
-Set min & max for font sizes
+Set min & max for font sizes.
     
     $min-fs: 8; // default
     $max:fs: 32; // default
@@ -41,21 +41,21 @@ Padding & Margins
 
 Using Stylewithclass is easy when styling elements using margins & paddings. just begin with a "m-" or a "p-" for margin or padding. Then, specify the "direction". The available "directions" are: "lt-" for left, "rt-" for right, "tp-" for top, "bm-" for bottom, "hor-" for horizontal and "ver-" for vertical. If you don't type any directions it assumes you are using all directions. After specifying directions you specify the amount.
 
-Style your html tags with paddings: 20
+Style your html tags with paddings: 20.
     
     <div class="p-20"></div>
 
-Style your html tags with padding-left: 5 & margin-right: 3
+Style your html tags with padding-left: 5 & margin-right: 3.
     
     <div class="p-lt-5"> // padding-left: 5
        <div class="m-rt-3"> // margin-right: 3
     </div> 
 
-Style your html tags with padding-top: 20 & padding-bottom: 20
+Style your html tags with padding-top: 20 & padding-bottom: 20.
     
     <div class="p-ver-20"></div>
 
-Style your html tags with margin-left: 10 & margin-right: 10
+Style your html tags with margin-left: 10 & margin-right: 10.
     
     <div class="m-hor-10"></div>
     
@@ -68,11 +68,11 @@ Style your fonts with 12px with ems. It assumes that the browser default size is
     
     <div class="fs-r-12"></div>
 
-Style your fonts with 12px with px
+Style your fonts with 12px with px.
     
     <div class="fs-a-12"></div>
     
-You can also text align your html tags. The available classes are 
+You can also text align your html tags. The available classes are:
     
     .txt-al-lt // for "text-align: left;"
     .txt-al-c  // for "text-align: center;"
@@ -81,7 +81,7 @@ You can also text align your html tags. The available classes are
 Miscellaneous
 =========================
 
-In addition, you can style your html tags with positions, float, clears & overflow-hidden
+In addition, you can style your html tags with positions, float, clears & overflow-hidden.
     
     
     /* Positions */
