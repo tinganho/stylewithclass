@@ -1,2 +1,5 @@
 // Sublime Text 2 cache
 .DS_Store
+
+// Sass cache
+example/.sass-cache
