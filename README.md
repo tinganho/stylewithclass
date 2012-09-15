@@ -3,6 +3,7 @@ Stylewithclass
 
 Style your web pages using pre-defined classes with commonly used CSS properties. 
 
+Use Stylewithclass if you want to achieve DRY(Don't-repeat-yourself) CSS code. It resuses a lot of code, because it use predfined classes with commonly used CSS properties. 
 
 Installation
 ============
@@ -48,7 +49,7 @@ Style your html tags with padding: 20.
 Style your html tags with padding-left: 5 & margin-right: 3.
     
     <div class="p-lt-5"> // padding-left: 5
-       <div class="m-rt-3"> // margin-right: 3
+       <div class="m-rt-3"></div> // margin-right: 3
     </div> 
 
 Style your html tags with padding-top: 20 & padding-bottom: 20.
