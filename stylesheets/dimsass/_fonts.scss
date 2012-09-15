@@ -11,7 +11,7 @@ $max-fs: 32 !default;
 
 // Relative font sizes
 @for $i from $min-fs through $max-fs {
-	.fs-#{$i} {
+	.fs-r-#{$i} {
 		font-size: $i / 16em;
 	}
 }
