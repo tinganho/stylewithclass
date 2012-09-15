@@ -41,7 +41,7 @@ Padding & Margins
 
 Using Stylewithclass is easy when styling elements using margins & paddings. just begin with a "m-" or a "p-" for margin or padding. Then, specify the "direction". The available "directions" are: "lt-" for left, "rt-" for right, "tp-" for top, "bm-" for bottom, "hor-" for horizontal and "ver-" for vertical. If you don't type any directions it assumes you are using all directions. After specifying directions you specify the amount.
 
-Style your html tags with paddings: 20.
+Style your html tags with padding: 20.
     
     <div class="p-20"></div>
 
