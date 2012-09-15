@@ -19,6 +19,20 @@ Installing Stylewithclass:
     #import Stylewithclass partial into your sass/scss file
     @import "stylewithclass"
 
+Settings
+=========================
+
+Set min, max & step for margin and padding values
+
+    $min-pm: 1; // default
+    $max-pm: 50; // default
+    $step-pm: 1; // default
+
+Set min & max for font sizes
+    
+    $min-fs: 8; // default
+    $max:fs: 32; // default
+
 Using Stylewithclass
 =========================
 
@@ -50,7 +64,7 @@ Fonts
 
 Using Stylewithclass to style fonts are easy. You begin with "fs-" for font-size. After that you specify whether you want it to be relative(with ems) or absolute(with px). "r-" is for relative and "a-" is for absolute. After specifying the font size type you specify the amount.
 
-Style your fonts with 12px with ems. It assumes that defualt is 16px and calculates the right number for you. 
+Style your fonts with 12px with ems. It assumes that the browser default size is 16px and calculates the right number of ems for you. 
     
     <div class="fs-r-12"></div>
 
