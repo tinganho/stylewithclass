@@ -85,6 +85,6 @@ In addition, you can style your html tags with positions, float, clears & overfl
     .cl-lt // for "clear: left;"
     .cl-rt // for "clear: right;"
     
-    /* Overflow hidden
+    /* Overflow hidden */
     .ov-hid // for "overflow: hidden;"
     
