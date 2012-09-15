@@ -16,12 +16,13 @@ $step-pm: 1 !default;
 	// Set minimum
 	$i: $min-pm;
 
-	@while $i < $max {
+	@while $i < $max-pm {
 		@if $dir == all {
 			.p-#{$i*1} {
 				padding: $i * 1px;
 			}
-		} else {
+		} 
+		@else {
 			.p-#{$dir}-#{$i*1} {
 				@if $dir == lt {
 					padding-left: $i * 1px;
