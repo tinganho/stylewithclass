@@ -1,0 +1,46 @@
+// 
+// Miscellaneous
+//
+// * Positions 
+// * Floats
+// * Clears
+// * Overflow hidden
+//
+
+// Positions
+.p-a {
+	position: absolute;
+}
+.p-r {
+	position: relative;
+}
+.p-f {
+	position: fixed;
+}
+.p-s {
+	position: sticky;
+}
+
+// Floats 
+.f-lt {
+	float: left;
+}
+.f-rt {
+	float: right;
+}
+
+// Clears
+.cl-b {
+	clear: both;
+}
+.cl-lt {
+	clear: left;
+}
+.cl-rt {
+	clear: right;
+}
+
+// Overflow hidden for wrapping elements in a wrapper
+.of-hid {
+	overflow: hidden;
+}
