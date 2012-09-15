@@ -48,7 +48,7 @@ Style your html tags with margin-left: 10 & margin-right: 10
 Fonts
 =========================
 
-Using Stylewithclass to style fonts are easy. You begin with "fs-" for font-size. After that you specify whether you want it to be relative(with ems) or absolute(with px). "r-" is for relative and "a-" is for absolute. After specfying the font size type you specify the amount.
+Using Stylewithclass to style fonts are easy. You begin with "fs-" for font-size. After that you specify whether you want it to be relative(with ems) or absolute(with px). "r-" is for relative and "a-" is for absolute. After specifying the font size type you specify the amount.
 
 Style your fonts with 12px with ems
     
