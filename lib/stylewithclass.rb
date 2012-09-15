@@ -1,3 +1,3 @@
 require 'compass'
 extension_path = File.expand_path(File.join(File.dirname(__FILE__), ".."))
-Compass::Frameworks.register('my_extension', :path => extension_path)
+Compass::Frameworks.register('stylewithclass', :path => extension_path)
