@@ -99,17 +99,30 @@ $step: 1;
 	clear: right;
 }
 
+
+// Font sizes
 @for $i from 8 through 26 {
 
 	// Font sizes using relative ems from standard browser font size of 16px
-	.txt-#{$i} {
+	.txt-fs-#{$i} {
 		font-size: $i / 16em;
 	}
 
 	// Absolut font sizes
-	.txt-a-#{$i} {
+	.txt-fsa-#{$i} {
 		font-size: $i * 1px;
 	}
+}
+
+// Text aligns
+.txt-al-l {
+	text-align: left;
+}
+.txt-al-c {
+	text-align: center;
+}
+.txt-al-r {
+	text-align: right;
 }
 
 // Overflow hidden for wrapping elements in a wrapper
