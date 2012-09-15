@@ -7,8 +7,6 @@ Style your web pages using pre-defined classes with commonly used CSS properties
 Installation
 ============
 
-(See Rails 3.1 notes below)
-
 Install gem from the command line:
 
     (sudo) gem install stylewithclass
