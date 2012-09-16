@@ -17,7 +17,7 @@ Require it using Compass in config.rb:
     # Edit the project configuration file and add:
     require 'stylewithclass'
 
-Import it in your sass/scss file
+Import it in your sass/scss file.
 
     #import Stylewithclass partial into your sass/scss file
     @import "stylewithclass"
