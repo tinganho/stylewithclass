@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   
   # Release Specific Information
   s.name = "stylewithclass"
-  s.version = "1.0.2"
+  s.version = "1.0.3"
   s.date = "2012-09-15"
 
   # Author Information
