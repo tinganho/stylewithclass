@@ -25,7 +25,7 @@ Import it in your sass/scss file.
 Settings
 =========================
 
-Set min, max & step for margin and padding values.
+Set min, max & step for padding and margin values.
 
     $min-pm: 1; // default
     $max-pm: 50; // default
