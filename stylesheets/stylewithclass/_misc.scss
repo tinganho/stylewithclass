@@ -2,6 +2,7 @@
 // Miscellaneous
 //
 // * Positions 
+// * Displays
 // * Floats
 // * Clears
 // * Overflow hidden
@@ -19,6 +20,20 @@
 }
 .p-s {
 	position: sticky; // New HTML-5 feature
+}
+
+// Displays
+.d-n {
+	display: none;
+}
+.d-bl {
+	display: block;
+}
+.d-in {
+	display: inline;
+}
+.d-in-bl {
+	display: inline-block;
 }
 
 // Floats 

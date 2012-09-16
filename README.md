@@ -76,6 +76,12 @@ In addition, you can style your html tags with positions, float, clears & overfl
     .p-f // for "position: fixed;"
     .p-s // for "position: sticky;"
     
+    /* Displays */
+    .d-n // for "display: none;"
+    .d-bl // for "display: block;"
+    .d-in // for "display: inline;"
+    .d-in-bl // for "display: inline-block;"
+
     /* Floats */
     .fl-lt // for "float: left;"
     .fl-rt // for "float: right;"
