@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   # Project Description
   s.rubyforge_project = "stylewithclass"
   s.summary = %q{Style your web page using css classes}
-  s.description = %q{StyleWithClass lets you style your web pages using predefined CSS classes that are commonly used. Such as paddings, margins, position, clear, floats etc.}
+  s.description = %q{Stylewithclass lets you style your web pages using predefined CSS classes that are commonly used. Such as paddings, margins, position, clear, floats etc.}
   
   # Files to Include
   s.files = %w(README.md)
