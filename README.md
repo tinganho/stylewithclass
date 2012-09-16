@@ -19,7 +19,7 @@ Require it using Compass in config.rb:
 
 Import it in your sass/scss file.
 
-    #import Stylewithclass partial into your sass/scss file
+    # import Stylewithclass partial into your sass/scss file
     @import "stylewithclass"
 
 Settings
