@@ -82,7 +82,7 @@ You can also text align your html tags. The available classes are:
 Miscellaneous
 =========================
 
-In addition, you can style your html tags with positions, float, clears & overflow-hidden.
+In addition, you can style your html tags with positions, displays, floats, clears & overflow-hidden.
     
     
     /* Positions */
