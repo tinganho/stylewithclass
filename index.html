@@ -1,66 +1,165 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Stylewithclass by tinganho</title>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Stylewithclass : " />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Stylewithclass</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/tinganho/stylewithclass">View on GitHub</a>
+
+          <h1 id="project_title">Stylewithclass</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/tinganho/stylewithclass/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/tinganho/stylewithclass/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h1>Stylewithclass</h1>
-        <p></p>
 
-        <p class="view"><a href="https://github.com/tinganho/stylewithclass">View the Project on GitHub <small>tinganho/stylewithclass</small></a></p>
+<p>Style your web pages using pre-defined classes with very commonly used CSS properties. </p>
 
+<p>Use Stylewithclass if you want to achieve DRY(Don't-repeat-yourself) CSS code. If you use Stylewithclass, you will end up re-using a lot of CSS code, because it uses pre-defined classes with very commonly used CSS properties.</p>
 
-        <ul>
-          <li><a href="https://github.com/tinganho/stylewithclass/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/tinganho/stylewithclass/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/tinganho/stylewithclass">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
+<h1>Installation</h1>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>Install gem from the command line:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<pre><code>(sudo) gem install stylewithclass
 </code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>Require it using Compass in config.rb:</p>
 
-<h3>Designer Templates</h3>
+<pre><code># Edit the project configuration file and add:
+require 'stylewithclass'
+</code></pre>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>Import it in your sass/scss file.</p>
 
-<h3>Rather Drive Stick?</h3>
+<pre><code># import Stylewithclass partial into your sass/scss file
+@import "stylewithclass"
+</code></pre>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<h1>Settings</h1>
 
-<h3>Authors and Contributors</h3>
+<p>Set min, max &amp; step for padding and margin values.</p>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<pre><code>$min-pm: 1; // default
+$max-pm: 50; // default
+$step-pm: 1; // default
+</code></pre>
 
-<h3>Support or Contact</h3>
+<p>Set min &amp; max for font sizes.</p>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<pre><code>$min-fs: 8; // default
+$max:fs: 32; // default
+</code></pre>
+
+<h1>Using Stylewithclass</h1>
+
+<h1>Padding &amp; Margins</h1>
+
+<p>Using Stylewithclass is easy when styling elements using margins &amp; paddings. just begin with a "m-" or a "p-" for margin or padding. Then, specify the "direction". The available "directions" are: "lt-" for left, "rt-" for right, "tp-" for top, "bm-" for bottom, "hor-" for horizontal and "ver-" for vertical. If you don't type any directions it assumes you are using all directions. After specifying directions you specify the amount.</p>
+
+<p>Style your html tags with padding: 20.</p>
+
+<pre><code>&lt;div class="p-20"&gt;&lt;/div&gt;
+</code></pre>
+
+<p>Style your html tags with padding-left: 5 &amp; margin-right: 3.</p>
+
+<pre><code>&lt;div class="p-lt-5"&gt; // padding-left: 5
+   &lt;div class="m-rt-3"&gt;&lt;/div&gt; // margin-right: 3
+&lt;/div&gt; 
+</code></pre>
+
+<p>Style your html tags with padding-top: 20 &amp; padding-bottom: 20.</p>
+
+<pre><code>&lt;div class="p-ver-20"&gt;&lt;/div&gt;
+</code></pre>
+
+<p>Style your html tags with margin-left: 10 &amp; margin-right: 10.</p>
+
+<pre><code>&lt;div class="m-hor-10"&gt;&lt;/div&gt;
+</code></pre>
+
+<h1>Fonts</h1>
+
+<p>Using Stylewithclass to style fonts are easy. You begin with "fs-" for font-size. After that you specify whether you want it to be relative(with ems) or absolute(with px). "r-" is for relative and "a-" is for absolute. After specifying the font size type you specify the amount.</p>
+
+<p>Style your fonts with 12px with ems. It assumes that the browser default size is 16px and calculates the right number of ems for you. </p>
+
+<pre><code>&lt;div class="fs-r-12"&gt;&lt;/div&gt;
+</code></pre>
+
+<p>Style your fonts with 12px with px.</p>
+
+<pre><code>&lt;div class="fs-a-12"&gt;&lt;/div&gt;
+</code></pre>
+
+<p>You can also text align your html tags. The available classes are:</p>
+
+<pre><code>.txt-al-lt // for "text-align: left;"
+.txt-al-c  // for "text-align: center;"
+.txt-al-rt // for "text-align: right;"
+</code></pre>
+
+<h1>Miscellaneous</h1>
+
+<p>In addition, you can style your html tags with positions, displays, floats, clears &amp; overflow-hidden.</p>
+
+<pre><code>/* Positions */
+.p-a // for "position: absolute;"
+.p-r // for "position: relative;"
+.p-f // for "position: fixed;"
+.p-s // for "position: sticky;"
+
+/* Displays */
+.d-n // for "display: none;"
+.d-bl // for "display: block;"
+.d-in // for "display: inline;"
+.d-in-bl // for "display: inline-block;"
+
+/* Floats */
+.fl-lt // for "float: left;"
+.fl-rt // for "float: right;"
+
+/* Clears */
+.cl-b // for "clear: both;"
+.cl-lt // for "clear: left;"
+.cl-rt // for "clear: right;"
+
+/* Overflow hidden */
+.ov-hid // for "overflow: hidden;"
+</code></pre>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/tinganho">tinganho</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Stylewithclass maintained by <a href="https://github.com/tinganho">tinganho</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
+
   </body>
 </html>
