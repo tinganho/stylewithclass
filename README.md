@@ -70,6 +70,8 @@ Style your fonts with 12px with px.
 
     <div class="fs-a-12"></div>
 
+The available font-sizes are `8px 9px 10px 11px 12px 14px 18px 20px 22px 24px 28px 30px 36px 48px`
+
 ## Text aligns
 
     .txt-al-lt // for "text-align: left;"
