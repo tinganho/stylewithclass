@@ -31,11 +31,6 @@ Set min, max & step for padding and margin values.
     $max-pm: 50; // default
     $step-pm: 1; // default
 
-Set min & max for font sizes.
-
-    $min-fs: 8; // default
-    $max:fs: 32; // default
-
 Using Stylewithclass
 =========================
 
