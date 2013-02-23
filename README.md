@@ -27,8 +27,8 @@ Settings
 
 Set min, max & step for padding and margin values.
 
-    $min-pm: 0; // default
-    $max-pm: 0; // default
+    $min-pm: 0; // default (We set zero beacuse margin and paddings are not compiled by default)
+    $max-pm: 0; // default (We set zero beacuse margin and paddings are not compiled by default)
     $step-pm: 5; // default
 
 Using Stylewithclass
