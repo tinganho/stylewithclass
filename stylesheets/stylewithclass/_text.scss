@@ -1,0 +1,57 @@
+//
+// Fonts
+//
+// * Relative font sizes
+// * Absolute font sizes
+//
+
+// Font settings
+$font-sizes: 8 10 12 14 16 18 20 22 24 28 30 32 34 38 42;
+
+// Relative font sizes
+@each $font-size in $font-sizes {
+	.fs-r-#{$font-size} {
+		font-size: ($font-size / 16)em;
+	}
+}
+
+// Absolut font sizes
+@each $font-size in $font-sizes {
+	.fs-a-#{$font-size} {
+		font-size: $font-size * 1px;
+	}
+}
+
+// Font-weights
+.f-w-normal {
+  font-weight: normal;
+}
+.f-w-bold {
+  font-weight: bold;
+}
+.f-w-bolder {
+  font-weight: bolder;
+}
+.f-w-lighter {
+  font-weight: lighter;
+}
+.f-w-inherit {
+  font-weight: inherit;
+}
+@for $i from 1 through 7 {
+  $font-weight: $i * 100;
+  .f-w-#{$font-weight} {
+    font-weight: $font-weight;
+  }
+}
+
+// Text aligns
+.txt-al-lt {
+  text-align: left;
+}
+.txt-al-c {
+  text-align: center;
+}
+.txt-al-rt {
+  text-align: right;
+}
