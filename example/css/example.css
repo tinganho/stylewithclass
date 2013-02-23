@@ -1,294 +1,284 @@
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
 .fs-r-8 {
   font-size: 0.5 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
+.fs-r-9 {
+  font-size: 0.5625 em;
+}
+
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
 .fs-r-10 {
   font-size: 0.625 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
+.fs-r-11 {
+  font-size: 0.6875 em;
+}
+
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
 .fs-r-12 {
   font-size: 0.75 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
 .fs-r-14 {
   font-size: 0.875 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
-.fs-r-16 {
-  font-size: 1 em;
-}
-
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
 .fs-r-18 {
   font-size: 1.125 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
 .fs-r-20 {
   font-size: 1.25 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
 .fs-r-22 {
   font-size: 1.375 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
 .fs-r-24 {
   font-size: 1.5 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
 .fs-r-28 {
   font-size: 1.75 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
 .fs-r-30 {
   font-size: 1.875 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
-.fs-r-32 {
-  font-size: 2 em;
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
+.fs-r-36 {
+  font-size: 2.25 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
-.fs-r-34 {
-  font-size: 2.125 em;
+/* line 13, ../../stylesheets/stylewithclass/_text.scss */
+.fs-r-48 {
+  font-size: 3 em;
 }
 
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
-.fs-r-38 {
-  font-size: 2.375 em;
-}
-
-/* line 13, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
-.fs-r-42 {
-  font-size: 2.625 em;
-}
-
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
 .fs-a-8 {
   font-size: 8px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
+.fs-a-9 {
+  font-size: 9px;
+}
+
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
 .fs-a-10 {
   font-size: 10px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
+.fs-a-11 {
+  font-size: 11px;
+}
+
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
 .fs-a-12 {
   font-size: 12px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
 .fs-a-14 {
   font-size: 14px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
-.fs-a-16 {
-  font-size: 16px;
-}
-
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
 .fs-a-18 {
   font-size: 18px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
 .fs-a-20 {
   font-size: 20px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
 .fs-a-22 {
   font-size: 22px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
 .fs-a-24 {
   font-size: 24px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
 .fs-a-28 {
   font-size: 28px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
 .fs-a-30 {
   font-size: 30px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
-.fs-a-32 {
-  font-size: 32px;
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
+.fs-a-36 {
+  font-size: 36px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
-.fs-a-34 {
-  font-size: 34px;
+/* line 20, ../../stylesheets/stylewithclass/_text.scss */
+.fs-a-48 {
+  font-size: 48px;
 }
 
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
-.fs-a-38 {
-  font-size: 38px;
-}
-
-/* line 20, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
-.fs-a-42 {
-  font-size: 42px;
-}
-
-/* line 26, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 26, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-normal {
   font-weight: normal;
 }
 
-/* line 29, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 29, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-bold {
   font-weight: bold;
 }
 
-/* line 32, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 32, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-bolder {
   font-weight: bolder;
 }
 
-/* line 35, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 35, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-lighter {
   font-weight: lighter;
 }
 
-/* line 38, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 38, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-inherit {
   font-weight: inherit;
 }
 
-/* line 43, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 43, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-100 {
   font-weight: 100;
 }
 
-/* line 43, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 43, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-200 {
   font-weight: 200;
 }
 
-/* line 43, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 43, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-300 {
   font-weight: 300;
 }
 
-/* line 43, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 43, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-400 {
   font-weight: 400;
 }
 
-/* line 43, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 43, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-500 {
   font-weight: 500;
 }
 
-/* line 43, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 43, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-600 {
   font-weight: 600;
 }
 
-/* line 43, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 43, ../../stylesheets/stylewithclass/_text.scss */
 .f-w-700 {
   font-weight: 700;
 }
 
-/* line 49, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 49, ../../stylesheets/stylewithclass/_text.scss */
 .txt-al-lt {
   text-align: left;
 }
 
-/* line 52, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 52, ../../stylesheets/stylewithclass/_text.scss */
 .txt-al-c {
   text-align: center;
 }
 
-/* line 55, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_text.scss */
+/* line 55, ../../stylesheets/stylewithclass/_text.scss */
 .txt-al-rt {
   text-align: right;
 }
 
-/* line 12, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 12, ../../stylesheets/stylewithclass/_misc.scss */
 .p-a {
   position: absolute;
 }
 
-/* line 15, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 15, ../../stylesheets/stylewithclass/_misc.scss */
 .p-r {
   position: relative;
 }
 
-/* line 18, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 18, ../../stylesheets/stylewithclass/_misc.scss */
 .p-f {
   position: fixed;
 }
 
-/* line 21, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 21, ../../stylesheets/stylewithclass/_misc.scss */
 .p-s {
   position: sticky;
 }
 
-/* line 26, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 26, ../../stylesheets/stylewithclass/_misc.scss */
 .d-n {
   display: none;
 }
 
-/* line 29, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 29, ../../stylesheets/stylewithclass/_misc.scss */
 .d-bl {
   display: block;
 }
 
-/* line 32, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 32, ../../stylesheets/stylewithclass/_misc.scss */
 .d-in {
   display: inline;
 }
 
-/* line 35, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 35, ../../stylesheets/stylewithclass/_misc.scss */
 .d-in-bl {
   display: inline-block;
 }
 
-/* line 40, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 40, ../../stylesheets/stylewithclass/_misc.scss */
 .fl-lt {
   float: left;
 }
 
-/* line 43, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 43, ../../stylesheets/stylewithclass/_misc.scss */
 .fl-rt {
   float: right;
 }
 
-/* line 48, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 48, ../../stylesheets/stylewithclass/_misc.scss */
 .cl-b {
   clear: both;
 }
 
-/* line 51, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 51, ../../stylesheets/stylewithclass/_misc.scss */
 .cl-lt {
   clear: left;
 }
 
-/* line 54, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 54, ../../stylesheets/stylewithclass/_misc.scss */
 .cl-rt {
   clear: right;
 }
 
-/* line 59, /Users/tingan87/Development/stylewithclass/stylesheets/stylewithclass/_misc.scss */
+/* line 59, ../../stylesheets/stylewithclass/_misc.scss */
 .ov-hid {
   overflow: hidden;
 }

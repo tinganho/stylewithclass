@@ -2,7 +2,13 @@
 // Bootstrap
 //
 
+$min-pm: 0 !default;
+$max-pm: 0 !default;
+$step-pm: 5 !default;
+
 // Imports
+@import "stylewithclass/margins";
+@import "stylewithclass/paddings";
 @import "stylewithclass/text";
 @import "stylewithclass/misc";
 
